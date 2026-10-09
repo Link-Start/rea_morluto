@@ -1,5 +1,25 @@
 # Changelog
 
+## [6.2.0](https://github.com/morluto/rea/compare/rea-agents-6.1.0...rea-agents-6.2.0) (2026-10-09)
+
+
+### Bug Fixes
+
+* **android:** validate engine archive prerequisites ([#1145](https://github.com/morluto/rea/issues/1145)) ([e9ebfb9](https://github.com/morluto/rea/commit/e9ebfb94eff0699b1ea84bba000c4467fa1cb998))
+* **artifacts:** recheck failed DMG detaches before reporting cleanup failure ([#1155](https://github.com/morluto/rea/issues/1155)) ([58a91f0](https://github.com/morluto/rea/commit/58a91f03d72162849991caf537ab058ccc918594))
+* **browser:** report Windows HAR heap exhaustion ([#1147](https://github.com/morluto/rea/issues/1147)) ([1393507](https://github.com/morluto/rea/commit/13935077ba039f6e342f9c11ab5eea935a335ae6))
+* **cli:** cancel routed JavaScript analysis in rea analyze ([#1156](https://github.com/morluto/rea/issues/1156)) ([089bbf5](https://github.com/morluto/rea/commit/089bbf58f3561e3f465c544bbcf8c307287b1256))
+* **evidence:** cancel exports before atomic publication ([16624f1](https://github.com/morluto/rea/commit/16624f1324e156d14025b2c346596c9781c07488))
+* **hopper:** reserve Linux demo application before launch ([#1158](https://github.com/morluto/rea/issues/1158)) ([33d5ae0](https://github.com/morluto/rea/commit/33d5ae0b52b8684634ecf14d4e9469968c69d462))
+* **javascript:** omit self-referential static references with disclosure ([#1157](https://github.com/morluto/rea/issues/1157)) ([b620e2a](https://github.com/morluto/rea/commit/b620e2a2bdcf3683b494d137bc409813735d5572))
+* **javascript:** preserve graphs with async chunk self-references ([#1152](https://github.com/morluto/rea/issues/1152)) ([7220166](https://github.com/morluto/rea/commit/72201668ed88c2cc822a07c08cf35a1e5ba88f35))
+
+
+### Documentation
+
+* add French README translation ([84094af](https://github.com/morluto/rea/commit/84094af54a4e0a6247445e59abff27bc4eca361b))
+* add French README translation ([9664b2b](https://github.com/morluto/rea/commit/9664b2b101fe4ac334b2911f9210b50d58d90a89))
+
 ## [6.1.0](https://github.com/morluto/rea/compare/rea-agents-6.0.0...rea-agents-6.1.0) (2026-10-09)
 
 
